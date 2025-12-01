@@ -1,0 +1,11 @@
+#ifndef STATES_HPP
+#define STATES_HPP
+
+#define STATE_SET_UNKNOWN 0
+#define STATE_SET_BOOT 1
+#define STATE_SET_STANDBY 2
+#define STATE_SET_MENU 3
+#define STATE_SET_ALARMS 4
+#define STATE_SET_SETTINGS 5
+
+#endif //STATES_HPP

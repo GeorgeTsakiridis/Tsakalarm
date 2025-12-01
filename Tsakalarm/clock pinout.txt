@@ -1,0 +1,118 @@
+Name | Pin | Function
+D0   | PD0 | Bluetooth's TX
+D1   | PD1 | Bluetooth's RX
+D2   | PD2 | Bluetooth's Status
+D3   | PD3 | Shift Register's Data
+D4   | PD4 | Shift Register's Storage Clock
+D5   | PD5 | Shift Register's Output Clock
+D6   | PD6 | Digits Enable
+D7   | PD7 | Buzzer
+D8   | PB0 | RTC Chip Enable
+D9   | PB1 | Bluetooth's Enable (Inverse)
+D10  | PB2 | Top Button LED
+D11  | PB3 | MOSI
+D12  | PB4 | MISO
+D13  | PB5 | SCK
+
+A0   | PC0 | Photo Resistor
+A1   | PC1 | Rotary Encoder A
+A2   | PC2 | Rotary Encoder B
+A3   | PC3 | Rotary Encoder Button
+A4   | PC4 | RTC I2C Data
+A5   | PC5 | RTC I2C Clock
+A6   | ADC6| Top Button Input
+A7   | ADC7| -
+
+Memory      |
+Address     | Content
+(Read)      |
+------------|------------------------
+(00) 0x00   | One Time - Alarm 1 - Active
+(01) 0x01   | One Time - Alarm 1 - Hour
+(02) 0x02   | One Time - Alarm 1 - Minute
+(03) 0x03   | One Time - Alarm 2 - Active
+(04) 0x04   | One Time - Alarm 2 - Hour
+(05) 0x05   | One Time - Alarm 2 - Minute
+(06) 0x06   | One Time - Alarm 3 - Active
+(07) 0x07   | One Time - Alarm 3 - Hour
+(08) 0x08   | One Time - Alarm 3 - Minute
+(09) 0x09   | Day 1 - Alarm 1 - Active
+(10) 0x0A   | Day 1 - Alarm 1 - Hour
+(11) 0x0B   | Day 1 - Alarm 1 - Minute
+(12) 0x0C   | Day 1 - Alarm 2 - Active
+(13) 0x0D   | Day 1 - Alarm 2 - Hour
+(14) 0x0E   | Day 1 - Alarm 2 - Minute
+(15) 0x0F   | Day 1 - Alarm 3 - Active
+(16) 0x10   | Day 1 - Alarm 3 - Hour
+(17) 0x11   | Day 1 - Alarm 3 - Minute
+(18) 0x12   | Day 2 - Alarm 1 - Active
+(19) 0x13   | Day 2 - Alarm 1 - Hour
+(20) 0x14   | Day 2 - Alarm 1 - Minute
+(21) 0x15   | Day 2 - Alarm 2 - Active
+(22) 0x16   | Day 2 - Alarm 2 - Hour
+(23) 0x17   | Day 2 - Alarm 2 - Minute
+(24) 0x18   | Day 2 - Alarm 3 - Active
+(25) 0x19   | Day 2 - Alarm 3 - Hour
+(26) 0x1A   | Day 2 - Alarm 3 - Minute
+(27) 0x1B   | Day 3 - Alarm 1 - Active
+(28) 0x1C   | Day 3 - Alarm 1 - Hour
+(29) 0x1D   | Day 3 - Alarm 1 - Minute
+(30) 0x1E   | Day 3 - Alarm 2 - Active
+(31) 0x1F   | Day 3 - Alarm 2 - Hour
+(32) 0x20   | Day 3 - Alarm 2 - Minute
+(33) 0x21   | Day 3 - Alarm 3 - Active
+(34) 0x22   | Day 3 - Alarm 3 - Hour
+(35) 0x23   | Day 3 - Alarm 3 - Minute
+(36) 0x24   | Day 4 - Alarm 1 - Active
+(37) 0x25   | Day 4 - Alarm 1 - Hour
+(38) 0x26   | Day 4 - Alarm 1 - Minute
+(39) 0x27   | Day 4 - Alarm 2 - Active
+(40) 0x28   | Day 4 - Alarm 2 - Hour
+(41) 0x29   | Day 4 - Alarm 2 - Minute
+(42) 0x2A   | Day 4 - Alarm 3 - Active
+(43) 0x2B   | Day 4 - Alarm 3 - Hour
+(44) 0x2C   | Day 4 - Alarm 3 - Minute
+(45) 0x2D   | Day 5 - Alarm 1 - Active
+(46) 0x2E   | Day 5 - Alarm 1 - Hour
+(47) 0x2F   | Day 5 - Alarm 1 - Minute
+(48) 0x30   | Day 5 - Alarm 2 - Active
+(49) 0x31   | Day 5 - Alarm 2 - Hour
+(50) 0x32   | Day 5 - Alarm 2 - Minute
+(51) 0x33   | Day 5 - Alarm 3 - Active
+(52) 0x34   | Day 5 - Alarm 3 - Hour
+(53) 0x35   | Day 5 - Alarm 3 - Minute
+(54) 0x36   | Day 6 - Alarm 1 - Active
+(55) 0x37   | Day 6 - Alarm 1 - Hour
+(56) 0x38   | Day 6 - Alarm 1 - Minute
+(57) 0x39   | Day 6 - Alarm 2 - Active
+(58) 0x3A   | Day 6 - Alarm 2 - Hour
+(59) 0x3B   | Day 6 - Alarm 2 - Minute
+(60) 0x3C   | Day 6 - Alarm 3 - Active
+(61) 0x3D   | Day 6 - Alarm 3 - Hour
+(62) 0x3E   | Day 6 - Alarm 3 - Minute
+(63) 0x3F   | Day 7 - Alarm 1 - Active
+(64) 0x40   | Day 7 - Alarm 1 - Hour
+(65) 0x41   | Day 7 - Alarm 1 - Minute
+(66) 0x42   | Day 7 - Alarm 2 - Active
+(67) 0x43   | Day 7 - Alarm 2 - Hour
+(68) 0x44   | Day 7 - Alarm 2 - Minute
+(69) 0x45   | Day 7 - Alarm 3 - Active
+(70) 0x46   | Day 7 - Alarm 3 - Hour
+(71) 0x47   | Day 7 - Alarm 3 - Minute
+(72) 0x48   | Brightness Strength
+(73) 0x49   | Brightness Offset
+(74) 0x4A   | Buzzer Melody
+(75) 0x4B   | Buzzer Volume
+(76) 0x4C   | Snooze Times
+(77) 0x4D   | Snooze Duration
+(78) 0x4E   | Dots Blinking Speed
+...
+(511) 0x1FF | First Boot
+
+
+
+
+
+
+
+

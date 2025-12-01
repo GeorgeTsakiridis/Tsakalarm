@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"A1, A2, A3, A4, B1, B2, B3, B4, C1, C2, C3, C4, D1, D2, D3, D4, E1, E2, E3, E4, F1, F2, F3, F4, G1, G2, G3, G4, P1, P2",LED Filament 12.3mm,30,LED,
+"J1, J2, J3, J4",PinHeader_1x08_P2.00mm_Vertical,4,Conn_01x08_Pin,
+J5,PinHeader_1x03_P2.00mm_Vertical,1,Conn_01x04_Pin,
